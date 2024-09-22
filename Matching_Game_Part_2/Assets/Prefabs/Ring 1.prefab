@@ -193,18 +193,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: -5023883436662057461, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
-        m_TargetAssemblyTypeName: SpriteBehavior, Assembly-CSharp
-        m_MethodName: ChangeRendererColor
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: c7955b1451b2dbc4f8c9ec7e59d22c66, type: 2}
-          m_ObjectArgumentAssemblyTypeName: ColorIDDataList, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   awakeEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -226,19 +214,7 @@ MonoBehaviour:
   idObj: {fileID: 0}
   startEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2678294754491966509}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   colorIDDataListObj: {fileID: 11400000, guid: c7955b1451b2dbc4f8c9ec7e59d22c66, type: 2}
 --- !u!114 &3660469318001813577
 MonoBehaviour:
@@ -256,13 +232,25 @@ MonoBehaviour:
   matchEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7255742921187956274, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 3666327592914981495}
+        m_TargetAssemblyTypeName: ColorMatchBehavior, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2850344681987134696}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6529937800584299489}
+        m_TargetAssemblyTypeName: SpriteBehavior, Assembly-CSharp
+        m_MethodName: ChangeRendererColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 6c1e2cebfecbf2a4b93a56a41bf1fdfd, type: 2}
+          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -339,16 +327,99 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hidden Dot
       objectReference: {fileID: 0}
+    - target: {fileID: 6752008423753387046, guid: b0694da0b810557469e867996e9acf51, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6752008423753387046, guid: b0694da0b810557469e867996e9acf51, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8942030984826052480}
+    - targetCorrespondingSourceObject: {fileID: 6752008423753387046, guid: b0694da0b810557469e867996e9acf51, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3666327592914981495}
   m_SourcePrefab: {fileID: 100100000, guid: b0694da0b810557469e867996e9acf51, type: 3}
+--- !u!1 &2201157679109820156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6752008423753387046, guid: b0694da0b810557469e867996e9acf51, type: 3}
+  m_PrefabInstance: {fileID: 4845845558649340634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8942030984826052480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2201157679109820156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b6d14a26868864ab5daa7f6ff208a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idObj: {fileID: 0}
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8752871760136295633}
+        m_TargetAssemblyTypeName: SpriteBehavior, Assembly-CSharp
+        m_MethodName: ChangeRendererColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 6c1e2cebfecbf2a4b93a56a41bf1fdfd, type: 2}
+          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  colorIDDataListObj: {fileID: 11400000, guid: c7955b1451b2dbc4f8c9ec7e59d22c66, type: 2}
+--- !u!114 &3666327592914981495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2201157679109820156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebcd5756e4738d4aa4da3c674dd1802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idObj: {fileID: 0}
+  matchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  noMatchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  noMatchDelayedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  colorIDDataListObj: {fileID: 11400000, guid: c7955b1451b2dbc4f8c9ec7e59d22c66, type: 2}
+--- !u!212 &2850344681987134696 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7255742921187956274, guid: b0694da0b810557469e867996e9acf51, type: 3}
+  m_PrefabInstance: {fileID: 4845845558649340634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5599457598700880567 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1047830014224973933, guid: b0694da0b810557469e867996e9acf51, type: 3}
   m_PrefabInstance: {fileID: 4845845558649340634}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8752871760136295633 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -5023883436662057461, guid: b0694da0b810557469e867996e9acf51, type: 3}
+  m_PrefabInstance: {fileID: 4845845558649340634}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2201157679109820156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6a55adcf1518345a5e91d3f2570aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6978727247539803626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -367,7 +438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1047830014224973933, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1047830014224973933, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -414,6 +485,10 @@ PrefabInstance:
       value: Inner Dot
       objectReference: {fileID: 0}
     - target: {fileID: 6752008423753387046, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6752008423753387046, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -421,48 +496,50 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7255742921187956274, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8662917992648762164, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
+      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8662917992648762164, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
+      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6529937800584299489}
+    - target: {fileID: 8662917992648762164, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
+      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeRendererColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 8662917992648762164, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
+      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SpriteBehavior, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8662917992648762164, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
+      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: eb153887e71e15449b12a77cf4ce5d9e, type: 2}
+    - target: {fileID: 8662917992648762164, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
+      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: ColorID, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6752008423753387046, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1953666742069842618}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
---- !u!1 &4425517361100429772 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6752008423753387046, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
+--- !u!114 &6529937800584299489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -5023883436662057461, guid: 5317f053d9f45bc43962141221a67f00, type: 3}
   m_PrefabInstance: {fileID: 6978727247539803626}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1953666742069842618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4425517361100429772}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6b6d14a26868864ab5daa7f6ff208a0, type: 3}
+  m_Script: {fileID: 11500000, guid: dd6a55adcf1518345a5e91d3f2570aa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idObj: {fileID: 0}
-  startEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4425517361100429772}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  colorIDDataListObj: {fileID: 11400000, guid: c7955b1451b2dbc4f8c9ec7e59d22c66, type: 2}
 --- !u!4 &7949918409560184199 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1047830014224973933, guid: 5317f053d9f45bc43962141221a67f00, type: 3}

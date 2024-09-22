@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: DotList
   m_EditorClassIdentifier: 
   vector3DList:
-  - {fileID: 11400000, guid: d573cbcc2567ef14a98077e92e53405b, type: 2}
   - {fileID: 11400000, guid: 3c02f6527b6d55b4ca44cb13de47f20d, type: 2}
   - {fileID: 11400000, guid: e4765655becdea14ca893f827f7eade5, type: 2}
