@@ -1,3 +1,6 @@
 [submodule "Matching_Game/Assets/Scripts"]
 	path = Matching_Game/Assets/Scripts
 	url = https://github.com/Nicholas-Dorland/DAGV_Scripts
+[submodule "ArtisanDream.Tools"]
+	path = ArtisanDream.Tools
+	url = D:\\Documents\\School\\UVU\\ArtisanDream.Tools
