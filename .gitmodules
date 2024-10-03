@@ -1,3 +1,6 @@
 [submodule "Matching_Game/Assets/Scripts"]
 	path = Matching_Game/Assets/Scripts
 	url = https://github.com/Nicholas-Dorland/DAGV_Scripts
+[submodule "Hounity/Assets/ArtisanDream.Tools"]
+	path = Hounity/Assets/ArtisanDream.Tools
+	url = https://github.com/Nicholas-Dorland/ArtisanDream.Tools
