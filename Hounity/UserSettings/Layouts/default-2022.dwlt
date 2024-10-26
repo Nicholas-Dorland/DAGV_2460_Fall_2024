@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1799
     height: 1037
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -439,7 +439,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -47820
+  m_LastSelectedObjectID: 26154
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -843,9 +843,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.8864446, y: 5.1491933, z: 0.033436637}
+    m_Target: {x: -31.929012, y: 10.652905, z: -0.10269436}
     speed: 2
-    m_Value: {x: -5.8864446, y: 5.1491933, z: 0.033436637}
+    m_Value: {x: -31.929012, y: 10.652905, z: -0.10269436}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -895,9 +895,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.641688
+    m_Target: 20.254784
     speed: 2
-    m_Value: 6.641688
+    m_Value: 20.254784
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1000,18 +1000,18 @@ MonoBehaviour:
       y: 21
       width: 880
       height: 322
-    m_Scale: {x: 1.1592739, y: 1.1592739}
-    m_Translation: {x: 440, y: 185.99182}
+    m_Scale: {x: 1.1224725, y: 1.1224725}
+    m_Translation: {x: 440, y: 172.86197}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -379.54794
-      y: -160.4382
-      width: 759.0959
-      height: 277.76007
+      x: -391.9918
+      y: -154.00107
+      width: 783.9836
+      height: 286.8667
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 880, y: 343}
@@ -1104,9 +1104,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 00670000
-      m_LastClickedID: 26368
-      m_ExpandedIDs: fefaffff58680000
+      m_SelectedIDs: ced8a8ff
+      m_LastClickedID: 0
+      m_ExpandedIDs: ecfaffff04660000b0670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1175,7 +1175,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ArtisanDream.Tools/ActionsEvents/SOs
+    - Assets/NewAssets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1183,16 +1183,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 62
   m_LastFolders:
-  - Assets/ArtisanDream.Tools/ActionsEvents/SOs
+  - Assets/NewAssets
   m_LastFoldersGridSize: 62
   m_LastProjectPath: D:\Documents\School\UVU\DAGV 2460\DAGV_2460_Fall_2024\Hounity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 127}
-    m_SelectedIDs: 3c690000
-    m_LastClickedID: 26940
-    m_ExpandedIDs: 00000000aa680000ac680000ae680000b0680000b2680000e66800003e690000406900008c6d000000ca9a3b
+    scrollPos: {x: 0, y: 153}
+    m_SelectedIDs: 526a0000
+    m_LastClickedID: 27218
+    m_ExpandedIDs: 000000000c6a00000e6a0000106a0000126a0000146a00004e6a0000526a0000626a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1220,7 +1220,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa680000ac680000ae680000b0680000b2680000
+    m_ExpandedIDs: 000000000c6a00000e6a0000106a0000126a0000146a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1272,7 +1272,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 116}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 62
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 165
